@@ -15,5 +15,7 @@ public class Code03_Near2Power {
         return (n < 0) ? 1 : n + 1;
     }
 
-
+    public static void main(String[] args) {
+        System.out.println(tableSizeFor(100));
+    }
 }
